@@ -105,6 +105,6 @@ title = "gitleaks config"
 	'''(.*?)(jpg|gif|doc|pdf|bin)$''',
 	'''(go.mod|go.sum)$''']
 [[whitelist.rules]]
-description = "Ignore python imports"
-regexes = ["twitter_url [\\w_\\.]+ NullableStringFieldUpdateOperationsInp [\\w_\\.]+"]
+	description = "Ignore python imports"
+	regexes = ["twitter_url [\\w_\\.]+ NullableStringFieldUpdateOperationsInp [\\w_\\.]+"]
 
