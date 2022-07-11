@@ -104,4 +104,9 @@ title = "gitleaks config"
 	files = ['''^\.?gitleaks.toml$''',
 	'''(.*?)(jpg|gif|doc|pdf|bin)$''',
 	'''(go.mod|go.sum)$''']
+[[rules]]
+	description = "Encompass"
+	regex = '''[\d | \w | \$ | \* | \^ | \! | \@ | \# | \& | \()]{64}'''
+	tags = ["key", "encompass"]
+
 
